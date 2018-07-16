@@ -7,6 +7,8 @@ sudo apt-get install -y python-dev pandoc texlive-latex-base build-essential
 
 ## Basic usage:
 
+Python 2.7.x
+
 ```bash
 virtualenv .venv/
 source .venv/bin/activate
