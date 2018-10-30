@@ -33,7 +33,7 @@ PyNaCl==1.2.1
 pyparsing==2.2.0
 pytz==2018.5
 PyYAML==3.13
-requests==2.19.1
+requests>=2.20.0
 simplejson==3.16.0
 singledispatch==3.4.0.3
 six==1.11.0
