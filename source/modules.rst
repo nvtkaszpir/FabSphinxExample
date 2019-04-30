@@ -1,5 +1,5 @@
-fabric
-======
+FabSphinxExample
+================
 
 .. toctree::
    :maxdepth: 4

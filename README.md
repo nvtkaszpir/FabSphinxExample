@@ -1,5 +1,15 @@
 # FabSphinxExample
 
+# Notice
+
+This repo is deadand will not be updated to python3.
+
+I suggest swithich go invoke which is a succesor of fabric 1.x.
+Moreover invoke documentation epxlicitly shows example how to use invoke to
+build sphinx docs. See https://www.pyinvoke.org/
+
+# About
+
 This is an example repo with fabric 1.x tasks mixed with sphinx-doc to generate
 documentation. This was created during loose discussion on ##sublimetext
 channel @ https://freenode.net
@@ -21,11 +31,12 @@ sudo apt-get install -y python-dev pandoc texlive-latex-base build-essential
 
 ## Basic usage:
 
-Python 2.7.x
 
 ```bash
-virtualenv .venv/
-source .venv/bin/activate
+pyenv install
+pyenv virtualenv fse
+pyenv activate fse
+
 pip install -r requirements.txt
 
 make apidoc

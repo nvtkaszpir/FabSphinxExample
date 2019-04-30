@@ -7,7 +7,7 @@ bcrypt==3.1.4
 certifi==2018.4.16
 cffi==1.11.5
 chardet==3.0.4
-cryptography>=2.3.0
+cryptography==2.6.1
 docutils==0.14
 enum34==1.1.6
 Fabric==1.14.0
@@ -16,14 +16,13 @@ idna==2.7
 imagesize==1.0.0
 invoke==1.1.0
 ipaddress==1.0.22
-Jinja2==2.10
+Jinja2==2.10.1
 livereload==2.5.2
 MarkupSafe==1.0
 numpydoc==0.8.0
 packaging==17.1
 paramiko==2.4.2
 pathtools==0.1.2
-pkg-resources==0.0.0
 pockets==0.6.2
 port-for==0.3.1
 pyasn1==0.4.3
@@ -32,8 +31,8 @@ Pygments==2.2.0
 PyNaCl==1.2.1
 pyparsing==2.2.0
 pytz==2018.5
-PyYAML==3.13
-requests>=2.20.0
+PyYAML==5.1
+requests==2.21.0
 simplejson==3.16.0
 singledispatch==3.4.0.3
 six==1.11.0
@@ -45,5 +44,5 @@ sphinxcontrib-napoleon==0.6.1
 sphinxcontrib-websupport==1.1.0
 tornado==5.1
 typing==3.6.4
-urllib3==1.23
+urllib3==1.24.2
 watchdog==0.8.3
